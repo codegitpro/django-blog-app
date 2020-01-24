@@ -1,0 +1,24 @@
+[
+    {
+        "model": "blog.post",
+        "pk": 1,
+        "fields": {
+            "author": 1,
+            "title": "HOLIDAY",
+            "text": "today is new year's day",
+            "created_date": "2020-01-24T14:14:20Z",
+            "published_date": "2020-01-24T14:14:52Z"
+        }
+    },
+    {
+        "model": "blog.post",
+        "pk": 2,
+        "fields": {
+            "author": 1,
+            "title": "TWOWAY",
+            "text": "He is man",
+            "created_date": "2020-01-24T14:14:55Z",
+            "published_date": "2020-01-24T14:15:11Z"
+        }
+    }
+]

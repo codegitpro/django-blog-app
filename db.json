@@ -1,0 +1,132 @@
+[
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "blog",
+            "model": "post"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "yw30d11plj06qseid0fu1b5zgyf8m6f5",
+        "fields": {
+            "session_data": "M2FkMjM5ZjNlOTkxMzY2Y2NmNTQ0MjA0OGI2ZjJiMjg1ZWFmNzYxMzp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJkNzM1MDBlY2EzNzQzNjkzZDc1MTBiYjI1NzUxZmE0Y2RjYWVhODc5In0=",
+            "expire_date": "2020-02-07T04:12:38.077Z"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$150000$lQWvH4rvhGim$pN3bkpyLLGvzM1ZdoInVRGU8IWfna3znkblgAoePhRQ=",
+            "last_login": "2020-01-24T04:12:37.947Z",
+            "is_superuser": true,
+            "username": "webdev",
+            "first_name": "",
+            "last_name": "",
+            "email": "webdevexp920@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2020-01-24T04:12:18.385Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "blog.post",
+        "pk": 1,
+        "fields": {
+            "author": 1,
+            "title": "HOLIDAY",
+            "text": "today is new year's day",
+            "created_date": "2020-01-24T14:14:20Z",
+            "published_date": "2020-01-24T14:14:52Z"
+        }
+    },
+    {
+        "model": "blog.post",
+        "pk": 2,
+        "fields": {
+            "author": 1,
+            "title": "TWOWAY",
+            "text": "He is man",
+            "created_date": "2020-01-24T14:14:55Z",
+            "published_date": "2020-01-24T14:15:11Z"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2020-01-24T14:14:55.128Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "HOLIDAY",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2020-01-24T14:15:12.454Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "TWOWAY",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    }
+]
